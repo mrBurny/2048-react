@@ -20,7 +20,7 @@ const populateField = cells => {
         occupiedCoords.add(sum)
     } while (startSize === occupiedCoords.size);
 
-    return [...cells, create(x, y, 2)]
+    return [...cells, create(x, y, Math.random() > 0.9 ? 4 : 2)]
 };
 
 export {populateField}

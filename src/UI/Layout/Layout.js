@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 class Layout extends PureComponent {
     render() {
-        const { children } = this.props
+        const { children } = this.props;
         return (
             <Main>
                 <Content>{children}</Content>
